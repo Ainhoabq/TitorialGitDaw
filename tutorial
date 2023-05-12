@@ -1,3 +1,4 @@
+****Tutorial****
 *1. Instalamos Git se non esta instalado ---> # apt-get install git
 (Opcional)Coñecer a version de git ---> # git --version
 *2. Crear a carpeta donde se vai localizar o repositorio local ---> # git init
