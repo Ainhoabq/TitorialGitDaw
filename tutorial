@@ -1,0 +1,14 @@
+*1. Instalamos Git se non esta instalado ---> # apt-get install git
+(Opcional)Coñecer a version de git ---> # git --version
+*2. Crear a carpeta donde se vai localizar o repositorio local ---> # git init
+*3. Configuramos a nosa conta en Git cos datos de acceso usuario ---> # git config --global user.name "nomedousuario"  # git config --global user.email "emaildousuario" 
+(Opcional)Consultar configuración de Git ---> # git config --list
+(Opcional)Coñecer os cambios que non estan actualizados no repositorio ---> # git status
+*4. Para gardar os cambios feitos(engadilos a Stating Area) ---> # git add .
+*5. Para subir de Sating Area a Local repository e engadir comentario ---> # git commit -m "comentario a engadir"
+*6. Debido a que se crea unha rama chamada master a cambiamos por mais ---> # git branch -M main
+*7. Relacionamos esta URL do repositorio (acabado en .git)(Temos que ter creado o repositorio en GitHub) ---> git remote add origen https://github.com/ainhoabq/proba1.git
+(Opcional) Se temosque cambiar a URL por outra usaremos o comando ---> git remote set-url origen URLNova
+(Opcional) Para consultar a etiqueta de referencia podemos usar ---> git remote (consulta a etiqueta) ou git remote -v (consulta a url)
+*8. Para subir as carpetas/arquivos sobre os que fixemos **commit** ---> git push -u origen main 
+
