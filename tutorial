@@ -13,3 +13,9 @@
 (Opcional) Para consultar a etiqueta de referencia podemos usar ---> git remote (consulta a etiqueta) ou git remote -v (consulta a url)
 *8. Para subir as carpetas/arquivos sobre os que fixemos **commit** ---> git push -u origen main 
 
+-------------------------------------------------------------------------------------------------------
+
+Tag ligero --> git tag nombre
+Tag fuerte --> git tag -a
+Subir tags --> git push --tags
+Subir tags fuertes --> git push --follow-tags
