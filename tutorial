@@ -16,6 +16,6 @@
 -------------------------------------------------------------------------------------------------------
 
 Tag ligero --> git tag nombre
-Tag fuerte --> git tag -a
+Tag fuerte --> git tag -a nombre
 Subir tags --> git push --tags
 Subir tags fuertes --> git push --follow-tags
